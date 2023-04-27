@@ -7,7 +7,7 @@ import {
     Text,
     Button,
     useColorModeValue,
-    Highlight,
+    Link,
 } from "@chakra-ui/react";
 import Image from "next/image";
 import aboutImage from "../public/menem-about.jpg";
@@ -75,7 +75,10 @@ function About() {
                         flexible projects and to work in harmony with other
                         developers. Check out my resumee down below ⤵
                     </Text>
-                    <a href="#!" download>
+                    <Link
+                        href="https://drive.google.com/file/d/1k9BBlEKCHn_m6OXNHj5YlAW5ggw5DwAL/view"
+                        isExternal
+                    >
                         <Button
                             colorScheme="teal"
                             leftIcon={<DownloadIcon />}
@@ -83,7 +86,7 @@ function About() {
                         >
                             Resumee
                         </Button>
-                    </a>
+                    </Link>
                 </GridItem>
             </SimpleGrid>
         </Flex>
