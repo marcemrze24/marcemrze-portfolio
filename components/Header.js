@@ -27,8 +27,8 @@ function Header() {
         >
             <GridItem colSpan={{ base: 1, lg: 1 }} justifySelf="center">
                 <Box
-                    w="280px"
-                    h="280px"
+                    w={{ base: "220px", lg: "280px" }}
+                    h={{ base: "220px", lg: "280px" }}
                     borderRadius="full"
                     overflow="hidden"
                     backgroundColor={useColorModeValue("blue.500", "teal.200")}

@@ -16,7 +16,7 @@ import { DownloadIcon } from "@chakra-ui/icons";
 function About() {
     return (
         <Flex
-            paddingTop={14}
+            paddingTop={{ base: 0, lg: 14 }}
             flexDirection="column"
             gap={{ base: 14, lg: 0 }}
             textAlign="center"

@@ -60,7 +60,7 @@ function Contact() {
                 columns={{ base: 1, md: 2 }}
                 rowGap={12}
                 px={8}
-                columnGap={12}
+                columnGap={{ md: 12 }}
             >
                 <GridItem colSpan={2}>
                     <Flex flexDir="column" alignItems="center" gap={4}>
