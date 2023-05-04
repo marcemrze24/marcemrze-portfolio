@@ -43,7 +43,7 @@ function HomePage() {
                 alignItems="center"
                 px={{ base: 2, md: 28, lg: 6 }}
                 py={14}
-                h="100vh"
+                h={{ base: "100%", md: "100vh" }}
                 id="about"
             >
                 <About />

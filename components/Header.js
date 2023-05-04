@@ -22,7 +22,7 @@ function Header() {
         <SimpleGrid
             columns={{ base: 1, lg: 3 }}
             h="full"
-            p={{ base: 6, lg: 0 }}
+            p={0}
             placeContent={{ base: "stretch", lg: "center" }}
         >
             <GridItem colSpan={{ base: 1, lg: 1 }} justifySelf="center">
